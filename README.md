@@ -5,7 +5,7 @@ Android Loadable Kernel Modules - mostly used for reversing and debugging on con
 
  * antiptrace - simple ptrace hooking module for use to aid in reversing native applications on Android
  * open-read-write - hooks lots of functions in an attempt to find out what files a piece of malware was touching
-
+ * antiunlink - prevents a specificed package name from unlinking files in it's own directory, specifically for use against dexprotector
 Warning
 -------
 
